@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Varela Round', sans-serif;
+
+}
+
+#my-element {
+    position: relative;
+    overflow: hidden;
+}
+
+#my-element:before {
+    content: "";
+    position: absolute;
+    width: 153%;
+    height: 140%;
+    top: -50%;
+    left: -50%;
+    z-index: -1;
+    background: linear-gradient(to top, #6600cc 0%, #6e6ef8 100%);
+    transform: rotate(356deg);
+}
