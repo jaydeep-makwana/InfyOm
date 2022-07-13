@@ -24,7 +24,4 @@ var person= {
 
 // console.log(fun);
 
-
-person.forEach(element => {
-    
-});
+ 
