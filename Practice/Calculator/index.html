@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+        
+    <table>
+
+        <thead>
+             <tr>
+                <th colspan="4" class="header">Calculator</th>
+             </tr>
+             <tr>
+                <th colspan="3"><input type="text" id="output" readonly></th>
+                <th class="ce-btn" id="ce-btn">CE</th>
+             </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td class="num-keys" id="num-7">7</td>
+                <td class="num-keys" id="num-8">8</td>
+                <td class="num-keys" id="num-9">9</td>
+                <!-- <td class="remove-btn" id="remove-btn">&#8592</td> -->
+                <td class="operation-btn" id="sub-btn">-</td>
+            </tr>
+            <tr>
+                <td class="num-keys" id="num-4">4</td>
+                <td class="num-keys" id="num-5">5</td>
+                <td class="num-keys" id="num-6">6</td>
+                <td class="operation-btn" id="multiply-btn">*</td>
+            </tr>
+            <tr>
+                <td class="num-keys" id="num-1">1</td>
+                <td class="num-keys" id="num-2">2</td>
+                <td class="num-keys" id="num-3">3</td>
+                <!-- <td class="operation-btn" id="multiply-btn">&times;</td> -->
+                <td class="operation-btn" rowspan="2" id="addition-btn">+</td>
+            </tr>
+            <tr class="row4">
+                <td id="equal-btn">=</td>
+                <td class="num-keys" id="num-0">0</td>
+                <td class="operation-btn" id="divide-btn">/</td>
+            </tr>
+        </tbody>
+    </table> 
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
