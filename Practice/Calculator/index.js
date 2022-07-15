@@ -52,3 +52,5 @@ $(document).ready(function () {
 //  console.log(rep);
 //  console.log(str.slice(0,-1));
  
+
+// https://codepen.io/lalwanivikas/pen/eZxjqo
